@@ -96,25 +96,27 @@ El modelo fue entrenado durante un maximo de 10 Epochs con un tamaño de batch d
 
 *Ejemplo de inferencia del Agente:*
 
-👤 Usuario Elegido: AVZO523PH9I81
-🔍 El agente esta analizando aleatoriamente 5 libros para este usuario ...
+**🤖 Resultado del Agente**
 
-Book Title                                         | Predicted Rating
-----------------------------------------------------------------------
-   Of Mice And Men (Penguin Audiobooks)            | 4.52
-   Resurrection Day                                | 4.12
-   Inquest On The Shroud Of Turin: Latest Scientific Findings | 4.34
-   You Can'T Go Home Again                         | 4.02
-🌟 The Mayor Of Casterbridge (Signet Classical Books) | 4.53 (Libro Ganador)
+**👤 Usuario Elegido:** `AVZO523PH9I81`
+*🔍 El agente está analizando aleatoriamente 5 libros para este usuario...*
 
-==============================
-✅ Recomendacion Final del Agente: Tu deberias leer 'The Mayor Of Casterbridge (Signet Classical Books)'
-==============================
+| Book Title | Predicted Rating |
+| :--- | :--- |
+| Of Mice And Men (Penguin Audiobooks) | 4.52 |
+| Resurrection Day | 4.12 |
+| Inquest On The Shroud Of Turin: Latest Scientific Findings | 4.34 |
+| You Can'T Go Home Again | 4.02 |
+| 🌟 **The Mayor Of Casterbridge (Signet Classical Books)** | **4.53 (Libro Ganador)** |
+
+---
+
+> **✅ Recomendación Final del Agente:** Tú deberías leer *'The Mayor Of Casterbridge (Signet Classical Books)'*
 
 
 ## **💻 Tecnologías Utilizadas**
 
-* **Lenguaje:** Python 3.x  
+* **Lenguaje:** Python 3.10.8
 * **Librerías Principales:**  
   * TensorFlow / Keras: Construcción y entrenamiento de la red neuronal.  
   * Pandas: Manipulación y limpieza de datos.  
