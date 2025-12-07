@@ -21,6 +21,12 @@ El conjunto de datos original consta de dos fuentes principales:
 
 Dataset obtenido del website Kaggle: *https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews/data*
 
+Para el Notebook de Collab (TrabajoFinal_Agentes_Inteligentes.jpynb) subimos el archivo books_data.csv directamente a Collab, pero para Books_rating.csv tuvimos que subir el archivo a Google Drive y montamos la ruta en Collab.
+
+Se hicieron las modificaciones para el archivo .py para usar una ruta local data_storage.
+
+Los archivos no se subieron a GitHub debido al gran tamaño de los mismos. Se recomienda hacer la descarga local desde la web indicada.
+
 **Estadísticas del Procesamiento:**
 
 * Se cargó una muestra inicial de 100,000 registros para optimizar el rendimiento.  
