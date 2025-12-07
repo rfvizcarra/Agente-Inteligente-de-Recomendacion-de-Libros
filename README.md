@@ -96,12 +96,21 @@ El modelo fue entrenado durante un maximo de 10 Epochs con un tamaño de batch d
 
 *Ejemplo de inferencia del Agente:*
 
-Plaintext  
-\--- Agente de Recomendación \---  
-Libro: dr.\_seuss:\_american\_icon  
-Rating Real del Usuario: 5.0 estrellas  
-Predicción del Agente: 4.82 estrellas  
-Veredicto del Agente: ¡Altamente Recomendado\! 🌟
+👤 Usuario Elegido: AVZO523PH9I81
+🔍 El agente esta analizando aleatoriamente 5 libros para este usuario ...
+
+Book Title                                         | Predicted Rating
+----------------------------------------------------------------------
+   Of Mice And Men (Penguin Audiobooks)            | 4.52
+   Resurrection Day                                | 4.12
+   Inquest On The Shroud Of Turin: Latest Scientific Findings | 4.34
+   You Can'T Go Home Again                         | 4.02
+🌟 The Mayor Of Casterbridge (Signet Classical Books) | 4.53 (Libro Ganador)
+
+==============================
+✅ Recomendacion Final del Agente: Tu deberias leer 'The Mayor Of Casterbridge (Signet Classical Books)'
+==============================
+
 
 ## **💻 Tecnologías Utilizadas**
 
